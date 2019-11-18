@@ -5,5 +5,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/lancer-lst/SpringJpaPractice
+          uri: https://github.com/lancer-lst/WeekThreeJPA
           search-paths: repo
