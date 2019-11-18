@@ -7,7 +7,7 @@ spring:
       - id: foods_route
         uri: lb://note-service
         predicates:
-        - Path=/
+        - Path=/note-service/**
         filters:
         - StripPrefix=1
         order: 0
